@@ -1,0 +1,44 @@
+*{margin: 0; padding: 0;}
+
+.producto{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.producto > img{
+    width: 215px;
+    float: left ;
+    padding: 10px;
+}
+
+ul{
+    font-size: 20px;
+    list-style: none;
+    color: black;
+    text-align: left;
+}
+
+ul>li{
+    padding: 5px;
+}
+
+i{
+    font-size: 20px;
+    color: black;
+    text-align: left;
+}
+
+.precio{
+    margin-left: 35px;
+}
+
+.nombre{
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+p{
+    font-size: 20px;
+    color: black;
+    text-align: left;
+}
