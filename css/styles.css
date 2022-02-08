@@ -42,3 +42,7 @@ p{
     color: black;
     text-align: left;
 }
+
+button{
+    border: none;
+}
