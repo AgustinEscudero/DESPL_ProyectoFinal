@@ -12,22 +12,30 @@ $(document).ready(function () {
     $("#delete1").click(function(){
         $("#prod1").remove();
         carrito();
+        sumar();
       });
 
     $("#delete2").click(function(){
         $("#prod2").remove();
         carrito();
+        sumar();
       });
 
     $("#delete3").click(function(){
         $("#prod3").remove();
         carrito();
+        sumar();
       });
 
-      var suma = 0;
-    $('.precio').each(function(){
-        suma += parseFloat($(this).val());
-        $("#precio").text(suma);
-      });
+
+    function sumar(){
+        var suma = 0;
+        $('.precio').each(function(){
+            suma += parseFloat($(this).text());
+            $("#total").text(suma);
+        });
+    }
+      
+    sumar();
       
 });

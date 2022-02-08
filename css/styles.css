@@ -6,7 +6,7 @@
 }
 
 .producto > img{
-    width: 215px;
+    width: 240px;
     float: left ;
     padding: 10px;
 }
@@ -29,7 +29,7 @@ i{
 }
 
 .precio{
-    margin-left: 35px;
+    margin-left: 55px;
 }
 
 .nombre{
@@ -45,4 +45,9 @@ p{
 
 button{
     border: none;
+}
+
+del{
+    color: red;
+    margin-left: 50px;
 }
