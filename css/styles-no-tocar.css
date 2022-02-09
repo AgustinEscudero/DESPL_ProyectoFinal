@@ -6,7 +6,7 @@ header .contacto > div, header .user-utils > div{display: table-cell; vertical-a
 header .user-utils > div{text-align: right;}
 header .contacto > div{text-align: left;}
 header .user-utils #shopping-cart{margin-right: 16px;}
-header .user-utils > div > a i{color: #dff; margin-right: 8px;}
+	 i{color: #dff; margin-right: 8px;}
 header .user-utils #shopping-cart > span{background: red; color: #fff; border-radius: 14px; width: 13px; height: 13px; position: absolute; margin-left: -12px; padding: 0; line-height: 12px; text-align: center; font-size: 9px; font-weight: bold;}
 header .user-utils > div > #my-account i{color: #dff; margin-right: 5px;}
 header #logo{text-align: center;}

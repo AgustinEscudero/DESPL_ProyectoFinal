@@ -2,7 +2,7 @@ $(document).ready(function () {
 
     function carrito() {
         var cantidad = $(".producto").length;
-        $("span").text(cantidad);
+        $("header .user-utils #shopping-cart > span").text(cantidad);
         if(cantidad == 0){
            $("#main").text("No hay productos en tu carrito");
         }
@@ -37,5 +37,20 @@ $(document).ready(function () {
     }
       
     sumar();
+
+    $(document).scroll(function() {
+
+      if($(this).scrollTop() > 25){
+        $('#totop').fadeIn(500);
+  
+      }else{
+        $('header').removeClass("fixed");
+        $('#totop').fadeOut(500);
+      }
+    });
+  
+    $('#totop').click(function(){
+      $("html, body").animate({ scrollTop: 0 }, 600);
+    });
       
 });

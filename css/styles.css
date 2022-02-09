@@ -1,5 +1,26 @@
 *{margin: 0; padding: 0;}
 
+ul.menu{
+    background-color: bisque;
+}
+
+ul.menu > li a{
+    color:black;
+}
+
+ul.menu > li a:hover{
+    color: black;
+    text-decoration: underline;
+}
+
+header .user-utils > div > a{
+    color: black;
+}
+
+header .user-utils > div > a:hover{
+    font-weight: bold;
+}
+
 .producto{
     margin: 0 auto;
     text-align: center;
@@ -9,6 +30,10 @@
     width: 240px;
     float: left ;
     padding: 10px;
+}
+
+hr{
+    color: black;
 }
 
 ul{
@@ -50,4 +75,47 @@ button{
 del{
     color: red;
     margin-left: 50px;
+}
+
+#totop{
+    display: none;
+    position: fixed;
+    right: 40px;
+    bottom: 64px;
+    width: 30px;
+    height: 30px;
+    background: black;
+    z-index: 9999;
+    cursor: pointer;
+    text-align: center;
+    padding-top: 5px;
+  }
+
+#totop i{color: #fff;}
+
+footer{
+    background: bisque;
+}
+
+footer .footer_links ul li a:hover{
+    color: #fff;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+footer .footer_links ul li a{
+    color: black;
+}
+
+.copyright{
+    background: #fff;
+    color: black;
+}
+
+header .user-utils > div > a i{
+    color: black;
+}
+
+header .user-utils > div > #my-account i{
+    color: black;
 }
