@@ -21,6 +21,11 @@ header .user-utils > div > a:hover{
     font-weight: bold;
 }
 
+header .user-utils #shopping-cart > span{
+    background-color: bisque;
+    color: black;
+}
+
 .producto{
     margin: 0 auto;
     text-align: center;
@@ -73,7 +78,6 @@ button{
 }
 
 del{
-    color: red;
     margin-left: 50px;
 }
 
@@ -89,6 +93,7 @@ del{
     cursor: pointer;
     text-align: center;
     padding-top: 5px;
+    padding-left: 6px;
   }
 
 #totop i{color: #fff;}

@@ -44,7 +44,6 @@ $(document).ready(function () {
         $('#totop').fadeIn(500);
   
       }else{
-        $('header').removeClass("fixed");
         $('#totop').fadeOut(500);
       }
     });
